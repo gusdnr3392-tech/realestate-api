@@ -7,7 +7,7 @@ app.use(cors());
 
 // R-ONE API 설정
 const REB_API_URL = 'https://www.reb.or.kr/r-one/openapi/SttsApiTblData.do';
-const API_KEY = '561757e064204dcb9432835864216915';
+const API_KEY = process.env.REB_API_KEY || '561757e064204dcb9432835864216915';
 const STATBL_ID = 'A_2024_00045';
 
 // 지역별 STATBL_ID 매핑
