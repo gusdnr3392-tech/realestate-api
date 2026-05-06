@@ -1,0 +1,21 @@
+{
+  "name": "realestate-api",
+  "version": "1.0.0",
+  "description": "부동산 모닝리포트 R-ONE API 서버",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["realestate", "reb", "api"],
+  "author": "User",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.11"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
